@@ -27,8 +27,8 @@ module.exports = {
 		embed
 			.setTitle(`**${song.name}** - \`${song.formattedDuration}\``)
 			.setAuthor({ name: song.uploader.name })
-			.setDescription(`**url**: ${song.url}
-							 **views**: ${song.views}`)
+			.setDescription(`**Url**: ${song.url}
+							 **Views**: ${song.views}`)
 			.setThumbnail(song.thumbnail)
 			.setFooter({ text: `User: ${interaction.user.username}` })
 
